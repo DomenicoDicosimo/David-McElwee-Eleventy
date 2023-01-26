@@ -8,8 +8,8 @@
     /* Centers button */
     text-align: center;
     /* changes on tablet */
-    padding: 0 16/16rem;
-    padding-bottom: 100/16rem;
+    padding: 0 1rem;
+    padding-bottom: 6.25rem;
     position: relative;
     z-index: 1;
     /* prevents overflow from the lines extending past the screen width */
@@ -31,7 +31,7 @@
     width: 100%;
     height: 100%;
     background: #000;
-    opacity: 0.4;
+    opacity: .4;
     position: absolute;
     display: block;
     top: 0;
@@ -51,7 +51,7 @@
   }
   #hero .cs-container {
     width: 100%;
-    max-width: 1280/16em;
+    max-width: 80em;
     /* we put the padding top and bottom on the container instead of #Hero so the pseudo element lines go to the top and bottom of the section */
     /* 144px - 280px - leaving extra space for the navigation */
     /* changes on tablet */
@@ -78,10 +78,10 @@
     line-height: 1.2em;
     text-transform: uppercase;
     text-align: center;
-    letter-spacing: 0.1em;
+    letter-spacing: .1em;
     font-weight: 700;
     color: var(--primary);
-    margin-bottom: 16/16rem;
+    margin-bottom: 1rem;
     display: block;
   }
   #hero .cs-title {
@@ -109,20 +109,20 @@
     color: var(--bodyTextColorWhite);
   }
   #hero .cs-button-solid {
-    font-size: 16/16rem;
+    font-size: 1rem;
     /* 46px - 56px */
     line-height: clamp(2.875em, 5.5vw, 3.5em);
-    width: 180/16rem;
+    width: 11.25rem;
     text-decoration: none;
     font-weight: 700;
-    margin: 0 8/16rem 16/16rem 8/16rem;
+    margin: 0 0.5rem 1rem 0.5rem;
     color: var(--headerColor);
     padding: 0;
     background-color: var(--primary);
     display: inline-block;
     position: relative;
     z-index: 1;
-    transition: color 0.3s;
+    transition: color .3s;
   }
   #hero .cs-button-solid:before {
     content: '';
@@ -135,7 +135,7 @@
     top: 0;
     left: 0;
     z-index: -1;
-    transition: width 0.3s;
+    transition: width .3s;
   }
   #hero .cs-button-solid:hover {
     color: var(--bodyTextColorWhite);
@@ -144,15 +144,15 @@
     width: 100%;
   }
   #hero .cs-button-transparent {
-    font-size: 16/16rem;
+    font-size: 1rem;
     /* 46px - 56px */
     line-height: clamp(2.875em, 5.5vw, 3.5em);
-    width: 180/16rem;
+    width: 11.25rem;
     /* 46px - 56px */
     height: clamp(2.875em, 5.5vw, 3.5em);
     text-decoration: none;
     font-weight: 700;
-    margin: 0 8/16rem;
+    margin: 0 0.5rem;
     color: #fff;
     padding: 0;
     background-color: transparent;
@@ -179,14 +179,14 @@
     transform-origin: left;
     /* this is what creates the grow affect on hover */
     transform: scaleX(0);
-    transition: transform 0.3s;
+    transition: transform .3s;
   }
   #hero .cs-button-transparent:hover:before {
     transform: scaleX(1);
   }
   #hero .cs-button-transparent .cs-img {
     display: block;
-    margin-right: 12/16rem;
+    margin-right: 0.75rem;
   }
 }
 /* Tablet - 768px */
@@ -200,7 +200,7 @@
   }
   #hero .cs-button-solid {
     margin-bottom: 0;
-    margin-right: 20/16rem;
+    margin-right: 1.25rem;
   }
 }
 /* Desktop Parallax Effect - 1300px */
@@ -217,7 +217,7 @@
 /* Dark Mode */
 @media only screen and (min-width: 0em) {
   body.dark-mode #hero .cs-background:before {
-    opacity: 0.8;
+    opacity: .8;
   }
 }
 /*-- -------------------------- -->
@@ -226,57 +226,57 @@
 /* Mobile */
 @media only screen and (min-width: 0em) {
   .services {
-    border-radius: 5/16em;
+    border-radius: 0.3125em;
     margin: auto;
-    margin-top: -167/16em;
+    margin-top: -10.4375em;
     position: relative;
     z-index: 100;
     background: #fff;
     width: 90%;
-    max-width: 1320/16em;
-    padding: 50/16em 20/16em;
-    border-top: 6/16em solid var(--primary);
+    max-width: 82.5em;
+    padding: 3.125em 1.25em;
+    border-top: 0.375em solid var(--primary);
     box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.05);
-    margin-bottom: 50/16em;
+    margin-bottom: 3.125em;
   }
   .services .card {
     display: block;
     width: 100%;
-    max-width: 357/16em;
+    max-width: 22.3125em;
     margin: auto;
-    margin-bottom: 50/16em;
+    margin-bottom: 3.125em;
   }
   .services .card:last-of-type {
     margin-bottom: 0;
   }
   .services .card picture {
     background: var(--primary);
-    width: 88/16em;
-    height: 88/16em;
+    width: 5.5em;
+    height: 5.5em;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: auto;
-    margin-bottom: 23/16em;
+    margin-bottom: 1.4375em;
     border-radius: 50%;
   }
   .services .card picture img {
-    width: 48/16em;
-    height: 48/16em;
+    width: 3em;
+    height: 3em;
   }
   .services .card h2 {
     text-align: center;
-    font-size: 32/16em;
-    line-height: 27/20em;
+    font-size: 2em;
+    line-height: 1.35em;
     font-weight: 700;
     color: #1a1a1a;
-    margin-bottom: 13/20em;
+    margin-bottom: 0.65em;
   }
   .services .card p {
     text-align: center;
-    line-height: 24/18em;
+    line-height: 1.33333333em;
     width: 100%;
-    opacity: 0.7;
+    opacity: .7;
   }
 }
 /* Inbetween */
@@ -290,16 +290,16 @@
   }
   .services .card {
     margin: 0;
-    max-width: 325/16em;
+    max-width: 20.3125em;
   }
 }
 /* Large Desktop */
 @media only screen and (min-width: 1300px) {
   .services {
-    padding: 50/16em 80/16em;
+    padding: 3.125em 5em;
   }
   .services .card {
-    max-width: 357/16em;
+    max-width: 22.3125em;
   }
 }
 /* Dark mode */
