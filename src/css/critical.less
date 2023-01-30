@@ -12,7 +12,6 @@
         text-align: center;
         /* changes on tablet */
         padding: 0 16/16rem;
-        padding-bottom: 100/16rem;
         position: relative;
         z-index: 1;
         /* prevents overflow from the lines extending past the screen width */
@@ -34,7 +33,7 @@
                 width: 100%;
                 height: 100%;
                 background: #000;
-                opacity: .4;
+                opacity: .5;
                 position: absolute;
                 display: block;
                 top: 0;
@@ -61,16 +60,21 @@
             /* we put the padding top and bottom on the container instead of #Hero so the pseudo element lines go to the top and bottom of the section */
             /* 144px - 280px - leaving extra space for the navigation */
             /* changes on tablet */
-            padding: clamp(9em, 25.95vw, 17.5em) 0 ;
+            padding: clamp(9em, 25.95vw, 8.5em) 0 ;
             margin: auto;
             position: relative;
+            justify-content: center;
+            flex-flow: row;
+            display: flex;
+            align-items: center;
 
         }
 
+        .cs-picture1 {
+            display: none;
+        }
         .cs-flex-group {
             /* 60px - 220px */
-            margin-bottom: clamp(3.75em, 15.5vw, 13.75em);
-            margin: auto;
             width: 80vw;
             /* 464px - 562px */
             max-width: clamp(29em, 60vw, 35.125em);
@@ -218,14 +222,49 @@
         padding: 0 clamp(2em, 5vw, 2.5em);
 
         .cs-container {
-            padding: clamp(7em, 27.95vw, 17.5em) 0 clamp(9em, 30.95vw, 23.5em) 0;
+            padding: clamp(7em, 27.95vw, 8.5em) 0 clamp(9em, 30.95vw, 8.5em) 0;
+            justify-content: space-between;
         }
 
         .cs-button-solid {
             margin-bottom: 0;
             margin-right: 20/16rem;
         }
+
+        .cs-left {
+            /* scaling the font size with the view width */
+            /* using ems so we can use font size to scale the whole section */
+            font-size:~"min(2.31vw, .7em)";
+            width: 407/16em;
+            height: 741/16em;
+            position: relative;
+        }
+
+        .cs-picture1 {
+            /* clips img tag corners */
+            overflow: hidden;
+            position: absolute;
+            display: block;
+            img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                /* makes image act like a background image */
+                object-fit: cover;
+            }
+        }
+
+        .cs-picture1 {
+            width: 520/16em;
+            height: 741/16em;
+        }
     }
+}
+/* Desktop - 1024px */
+@media only screen and (min-width: 64em) {
+    
 }
 
 /* Desktop Parallax Effect - 1300px */
