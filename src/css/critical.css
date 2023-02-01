@@ -3,6 +3,9 @@
 <--- -------------------------- -*/
 /* Mobile - 360px */
 @media only screen and (min-width: 0em) {
+  html {
+    scroll-behavior: smooth;
+  }
   #hero {
     font-family: 'Roboto', 'Arial', sans-serif;
     /* Centers button */
