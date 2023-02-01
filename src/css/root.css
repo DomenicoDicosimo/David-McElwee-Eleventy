@@ -15,7 +15,7 @@
     /* 31px - 49px */
     --headerFontSize: clamp(1.9375rem, 4.5vw, 3.0625rem);
     /* 60px - 100px top and bottom */
-    --sectionPadding: clamp(3.75em, 7.82vw, 6.25em) 1rem;
+    --sectionPadding: clamp(2.75em, 6.82vw, 5.25em) 1rem;
     --bodyFontSize: 1.125em;
   }
   /* roboto-regular - latin */
