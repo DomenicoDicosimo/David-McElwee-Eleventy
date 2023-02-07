@@ -221,7 +221,6 @@
   #hero .cs-picture1 {
     /* clips img tag corners */
     overflow: hidden;
-    position: absolute;
     display: block;
   }
   #hero .cs-picture1 img {
