@@ -41,7 +41,7 @@
   }
   #sbs-r .cs-picture1 {
     width: 32.5em;
-    height: 46.3125em;
+    height: 51.3125em;
     right: 0;
     top: 0;
   }
@@ -137,6 +137,7 @@
   #sbs-r .cs-container {
     flex-flow: row;
     justify-content: space-between;
+    align-items: flex-start;
     gap: 3.25rem;
   }
   #sbs-r .cs-left {
