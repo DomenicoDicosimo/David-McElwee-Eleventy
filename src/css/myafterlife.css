@@ -325,3 +325,123 @@
     opacity: .7;
   }
 }
+/*-- -------------------------- -->
+<---       Side By Side         -->
+<--- -------------------------- -*/
+/* Mobile - 360px */
+@media only screen and (min-width: 0em) {
+  #fvf *:before {
+    box-sizing: border-box;
+  }
+  #fvf *:after {
+    box-sizing: border-box;
+  }
+  #fvf body {
+    background: #ffffff;
+    color: #4d5974;
+    display: flex;
+    font-family: 'Hind', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    padding: 0;
+  }
+  #fvf .container {
+    margin: 0 auto;
+    padding: 4rem;
+    width: 48rem;
+  }
+  #fvf .accordion .accordion-item {
+    border-bottom: 1px solid #e5e5e5;
+  }
+  #fvf .accordion .accordion-item button[aria-expanded='true'] {
+    border-bottom: 1px solid #03b5d2;
+  }
+  #fvf .accordion button {
+    background: none;
+    border: none;
+    color: #7288a2;
+    display: block;
+    font-size: 1.15rem;
+    font-weight: 400;
+    outline: none;
+    padding: 1em 0;
+    position: relative;
+    text-align: left;
+    width: 100%;
+  }
+  #fvf .accordion button:hover {
+    color: #03b5d2;
+    cursor: pointer;
+  }
+  #fvf .accordion button:hover:after {
+    border: 1px solid #03b5d2;
+    color: #03b5d2;
+    cursor: pointer;
+  }
+  #fvf .accordion button:focus {
+    color: #03b5d2;
+    cursor: pointer;
+  }
+  #fvf .accordion button:focus:after {
+    border: 1px solid #03b5d2;
+    color: #03b5d2;
+    cursor: pointer;
+  }
+  #fvf .accordion button .accordion-title {
+    padding: 1em 1.5em 1em 0;
+  }
+  #fvf .accordion button .icon {
+    border-radius: 22px;
+    border: 1px solid;
+    display: inline-block;
+    height: 22px;
+    position: absolute;
+    right: 0;
+    top: 18px;
+    width: 22px;
+  }
+  #fvf .accordion button .icon:before {
+    background: currentColor;
+    content: '';
+    display: block;
+    height: 2px;
+    left: 5px;
+    position: absolute;
+    top: 9px;
+    width: 10px;
+  }
+  #fvf .accordion button .icon:after {
+    background: currentColor;
+    content: '';
+    display: block;
+    height: 10px;
+    left: 9px;
+    position: absolute;
+    top: 5px;
+    width: 2px;
+  }
+  #fvf button[aria-expanded='true'] {
+    color: #03b5d2;
+  }
+  #fvf button[aria-expanded='true'].icon:after {
+    width: 0;
+  }
+  #fvf button[aria-expanded='true'] + .accordion-content {
+    max-height: 9em;
+    opacity: 1;
+    transition: all 200ms linear;
+    will-change: opacity, max-height;
+  }
+  #fvf .accordion-content {
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: opacity 200ms linear, max-height 200ms linear;
+    will-change: opacity, max-height;
+  }
+  #fvf .accordion-content p {
+    font-size: 1rem;
+    font-weight: 300;
+    margin: 2em 0;
+  }
+}
