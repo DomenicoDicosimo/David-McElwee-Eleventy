@@ -347,21 +347,49 @@
   }
   #fvf .container {
     margin: 0 auto;
-    padding: 4rem;
-    width: 48rem;
+    padding: 2rem;
+    padding-top: 7.5rem;
+    padding-bottom: 6rem;
+    max-width: 76rem;
+  }
+  #fvf .container .title-container {
+    width: 100%;
+    max-width: 69rem;
+    margin: auto;
+  }
+  #fvf .container .title-container .topper {
+    font-size: var(--topperFontSize);
+    line-height: 1.2em;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: .1em;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 1rem;
+    display: block;
+  }
+  #fvf .container .title-container .title {
+    font-size: var(--headerFontSize);
+    font-weight: 900;
+    line-height: 1.2em;
+    text-align: center;
+    max-width: 43.75rem;
+    margin: 0 auto 4rem;
+    color: var(--headerColor);
+    position: relative;
   }
   #fvf .accordion .accordion-item {
     border-bottom: 1px solid #e5e5e5;
   }
   #fvf .accordion .accordion-item button[aria-expanded='true'] {
-    border-bottom: 1px solid #03b5d2;
+    border-bottom: 1px solid #fa4b0f;
   }
   #fvf .accordion button {
     background: none;
     border: none;
-    color: #7288a2;
+    color: #403835;
     display: block;
-    font-size: 1.15rem;
+    font-size: var(--bodyFontSize);
     font-weight: 400;
     outline: none;
     padding: 1em 0;
@@ -370,21 +398,21 @@
     width: 100%;
   }
   #fvf .accordion button:hover {
-    color: #03b5d2;
+    color: #fa4b0f;
     cursor: pointer;
   }
   #fvf .accordion button:hover:after {
-    border: 1px solid #03b5d2;
-    color: #03b5d2;
+    border: 1px solid #fa4b0f;
+    color: #fa4b0f;
     cursor: pointer;
   }
   #fvf .accordion button:focus {
-    color: #03b5d2;
+    color: #fa4b0f;
     cursor: pointer;
   }
   #fvf .accordion button:focus:after {
-    border: 1px solid #03b5d2;
-    color: #03b5d2;
+    border: 1px solid #fa4b0f;
+    color: #fa4b0f;
     cursor: pointer;
   }
   #fvf .accordion button .accordion-title {
@@ -421,7 +449,7 @@
     width: 2px;
   }
   #fvf button[aria-expanded='true'] {
-    color: #03b5d2;
+    color: #fa4b0f;
   }
   #fvf button[aria-expanded='true'].icon:after {
     width: 0;
@@ -440,7 +468,7 @@
     will-change: opacity, max-height;
   }
   #fvf .accordion-content p {
-    font-size: 1rem;
+    font-size: var(--bodyFontSize);
     font-weight: 300;
     margin: 2em 0;
   }

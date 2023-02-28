@@ -394,7 +394,7 @@
 @media only screen and (min-width: 0em) {
 
 #fvf{
-@color0: #03b5d2; // Appears 8 times
+@color0: #FA4B0F;
 * {
 	&:before {
 			box-sizing: border-box;
@@ -414,9 +414,41 @@ body {
 }
 .container {
 	margin: 0 auto;
-	padding: 4rem;
-	width: 48rem;
+	padding: 2rem;
+    padding-top: 7.5rem;
+    padding-bottom: 6rem;
+	max-width: 76rem;
+
+    .title-container{
+        width: 100%;
+        max-width: 69rem;
+        margin: auto;
+
+        .topper{
+            font-size: var(--topperFontSize);
+            line-height: 1.2em;
+            text-transform: uppercase;
+            text-align: center;
+            letter-spacing: .1em;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 1rem;
+            display: block;
+        }
+
+        .title{
+            font-size: var(--headerFontSize);
+            font-weight: 900;
+            line-height: 1.2em;
+            text-align: center;
+            max-width: 43.75rem;
+            margin: 0 auto 4rem;
+            color: var(--headerColor);
+            position: relative;
+        }
+    }
 }
+
 .accordion {
 	.accordion-item {
 		border-bottom: 1px solid #e5e5e5;
@@ -427,9 +459,9 @@ body {
 	button {
 		background: none;
 		border: none;
-		color: #7288a2;
+		color: #403835;
 		display: block;
-		font-size: 1.15rem;
+		font-size: var(--bodyFontSize);
 		font-weight: 400;
 		outline: none;
 		padding: 1em 0;
@@ -511,7 +543,7 @@ body {
 		transition: opacity 200ms linear, max-height 200ms linear;
 		will-change: opacity, max-height;
 		p {
-			font-size: 1rem;
+			font-size: var(--bodyFontSize);
 			font-weight: 300;
 			margin: 2em 0;
 		}
