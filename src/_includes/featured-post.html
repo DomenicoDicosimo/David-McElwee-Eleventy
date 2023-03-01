@@ -2,20 +2,20 @@
   <!--Featured-->
   <div class="blog-featured-group">
     <span class="blog-header">Featured Posts</span>
-    {%- for post in collections.featured | reverse -%}
-    <a class="blog-feature" href="{{ post.url }}">
+    {%- for blogpost in collections.featured | reverse -%}
+    <a class="blog-feature" href="{{ blogpost.url }}">
       <picture class="blog-featureImage">
         <img
-          src="{{ post.data.image }}"
-          alt="{{ post.data.imageAlt }}"
+          src="{{ blogpost.data.image }}"
+          alt="{{ blogpost.data.imageAlt }}"
           width="60"
           height="60"
           decoding="async"
         />
       </picture>
       <div class="content-group">
-        <h3 class="feature-h3">{{ post.data.blogTitle }}</h3>
-        <span class="feature-date">{{ post.date | postDate }}</span>
+        <h3 class="feature-h3">{{ blogpost.data.blogTitle }}</h3>
+        <span class="feature-date">{{ blogpost.date | postDate }}</span>
       </div>
     </a>
     {%- endfor -%}

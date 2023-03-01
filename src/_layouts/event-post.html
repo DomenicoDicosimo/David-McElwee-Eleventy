@@ -2,8 +2,8 @@
 layout: 'base.html'
 preloadCSS: '/css/events.css'
 eleventyComputed:
-    description: '{{ blogDescription }}'
-    metaTitle: '{{ blogTitle }}'
+    description: '{{ description }}'
+    metaTitle: '{{ eventTitle }}'
     tagTitle: '{{ titleTag }}'
     preloadImg: '{{ image }}'
     permalink: '/events/{{ pageName | slug }}/index.html'
@@ -36,7 +36,7 @@ eleventyComputed:
 
             <!--Article Info-->
             <div class="article-group">
-                <h1 class="blog-h1">{{ blogTitle }}</h1>
+                <h1 class="blog-h1">{{ eventTitle }}</h1>
                 <div class="blog-authorGroup">
                     <!--Author Image-->
                     <picture class="blog-author-img">
@@ -60,10 +60,4 @@ eleventyComputed:
         </article>
     </div>
     <!-- End .main-content -->
-
-    <!-- ============================================ -->
-    <!--                   Sidebar                    -->
-    <!-- ============================================ -->
-
-    {% include 'featured-post.html' %}
 </div>

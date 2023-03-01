@@ -1,12 +1,12 @@
 ---
-pageName: blog-template
+pageName: The Delusionotist
 blogTitle: The Delusionotist
 titleTag: The Delusionotist
-blogDescription: Need a description
+description: Need a description
 author: David McElwee
 date: 2022-12-16T19:40:18.253Z
 tags:
-  - post
+  - blogpost
   - featured
 image: /images/blog/landing.jpg
 imageAlt: NEED AN ALT TAG

@@ -31,16 +31,16 @@ eleventyNavigation:
         <!--                 Blog Articles                -->
         <!-- ============================================ -->
 
-        {% if collections.post | length == 0 %}
+        {% if collections.eventpost | length == 0 %}
             <h1>No Recent Posts</h1>
         {% endif %}
-        {%- for post in collections.post | reverse -%}
+        {%- for eventpost in collections.eventpost | reverse -%}
             <article class="recent-articles">
                 <!--Main Article Image-->
                 <picture class="blog-mainImage">
                     <img
-                        src="{{ post.data.image }}"
-                        alt="{{ post.data.imageAlt }}"
+                        src="{{ eventpost.data.image }}"
+                        alt="{{ eventpost.data.imageAlt }}"
                         width="795"
                         height="400"
                         decoding="async"
@@ -59,26 +59,20 @@ eleventyNavigation:
               decoding="async"
 />
                         </picture>
-                        <span class="blog-author">{{ post.data.author }}</span>
+                        <span class="blog-author">{{ eventpost.data.author }}</span>
                         <span aria-hidden="true" class="blog-dot"></span>
                         <!--Blog Date-->
-                        <span class="blog-date">{{ post.date | postDate }}</span>
+                        <span class="blog-date">{{ eventpost.date | postDate }}</span>
                     </div>
                     <h2 class="blog-h1">
-                        {{ post.data.blogTitle }}
+                        {{ eventpost.data.eventTitle }}
                     </h2>
                     <p class="blog-desc">
-                        {{ post.data.blogDescription }}
+                        {{ eventpost.data.description }}
                     </p>
-                    <a href="{{ post.url }}" class="blog-link">Continue Reading</a>
+                    <a href="{{eventpost.url }}" class="blog-link">Continue Reading</a>
                 </div>
             </article>
         {%- endfor -%}
     </div>
-
-    <!-- ============================================ -->
-    <!--                Featured Posts                -->
-    <!-- ============================================ -->
-
-    {% include 'featured-post.html' %}
 </div>
