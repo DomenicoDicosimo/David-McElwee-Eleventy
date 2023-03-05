@@ -1,8 +1,8 @@
 ---
 layout: 'base.html' 
-description: "Meta description for the page"
-metaTitle: 'Title that shows up on social OG tags'
-tagTitle: 'Title that shows up on google, and is concatenated with | {{ client.name }}'
+description: "My Afterlife, a novel by David McElwee"
+metaTitle: 'My Afterlife by David McElwee'
+tagTitle: 'My Afterlife'
 preloadImg: '/images/imageName.format'
 preloadCSS: '/css/myafterlife.css'
 permalink: 'myafterlife/'
@@ -55,9 +55,9 @@ eleventyNavigation:
         reader will reflect on their own life, shaped by important (and unimportant) 
         events and decisions, leading them to ask, “What if…?”
       </p>
-      <a href="https://www.amazon.com/My-Afterlife-David-McElwee/dp/B0BVX74YHR/ref=sr_1_1?crid=3FG7QS1HSS1U2&keywords=David+mcelwee+my+afterlife&qid=1677096594&s=books&sprefix=david+mcelwee+my+afterlife%2Cstripbooks%2C82&sr=1-1" class="button-solid">Amazon</a>
-      <a href="https://www.barnesandnoble.com/w/my-afterlife-david-mcelwee/1143076021?ean=9798887631790" class="button-solid">B&N</a>
-      <a href="https://books.apple.com/us/book/my-afterlife/id6445899136" class="button-solid">Apple</a>
+      <a href="https://a.co/d/8H7BR6K" class="button-solid">Amazon</a>
+      <a href="https://www.barnesandnoble.com/w/my-afterlife-david-mcelwee/1143076021?ean=9798887631790" target="_blank" rel="noopener noreferrer" class="button-solid">B&N</a>
+      <a href="https://books.apple.com/us/book/my-afterlife/id6445899136" target="_blank" rel="noopener noreferrer" class="button-solid">Apple</a>
     </div>
   </div>
 </section>
@@ -145,8 +145,8 @@ eleventyNavigation:
       </div>
     </div>
   </div>
-  <a aria-label="Read an Exerpt" href="/reviews" class="button-solid">Read an Exerpt</a>
-  <a aria-label="Read an Exerpt" href="/reviews" class="button-solid">Join Our Newsletter</a>
+  <a aria-label="Read an Exerpt" href="https://read.amazon.com/kp/embed?asin=B0BWZ54VN5&preview=newtab&linkCode=kpe&ref_=cm_sw_r_kb_dp_5TXZE9TJMWGBRC8BCPNRs" target="_blank" rel="noopener noreferrer" class="button-solid">Read an Exerpt</a>
+  <a aria-label="Join Our Newsletter to Recieve Updates" href="#cta" class="button-solid">Join Our Newsletter</a>
 </section>
 
 <!-- ============================================ -->
@@ -162,48 +162,25 @@ eleventyNavigation:
     <div class="accordion">
       <div class="accordion-item">
         <button id="accordion-button-1" aria-expanded="true">
-          <span class="accordion-title">Whats the deal with the glass ball?</span>
+          <span class="accordion-title">Information that readers have discovered and inquired about will be displayed here!</span>
           <span class="icon" aria-hidden="true"></span>
         </button>
         <div class="accordion-content">
-        <p> Here you can put any information that you want we could even add pictures if you want!</p>
+        <p> You can write to David by going to the contact page.</p>
       </div>
     </div>
     <div class="accordion-item">
       <button id="accordion-button-2" aria-expanded="false">
-        <span class="accordion-title">Why is the sky blue?</span>
+        <span class="accordion-title">What is the deal with the glass ball?</span>
         <span class="icon" aria-hidden="true"></span>
       </button>
       <div class="accordion-content">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
+        <p>Many years ago, in the land before time, David and his father found an actual glass orb under his residence. </p>
       </div>
     </div>
-    <div class="accordion-item">
-      <button id="accordion-button-3" aria-expanded="false">
-        <span class="accordion-title">Will we ever discover aliens?</span>
-        <span class="icon" aria-hidden="true"></span>
-      </button>
-      <div class="accordion-content">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
-      </div>
-    </div>
-    <div class="accordion-item">
-      <button id="accordion-button-4" aria-expanded="false">
-        <span class="accordion-title">How much does the Earth weigh?</span>
-        <span class="icon" aria-hidden="true"></span>
-      </button>
-      <div class="accordion-content">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
-      </div>
-    </div>
-    <div class="accordion-item">
-      <button id="accordion-button-5" aria-expanded="false">
-        <span class="accordion-title">How do airplanes stay up?</span>
-        <span class="icon" aria-hidden="true"></span>
-      </button>
-      <div class="accordion-content">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
-      </div>
-    </div>
-  </div>
 </section>
+
+<!-- ============================================ -->
+<!--                     CTA                      -->
+<!-- ============================================ -->
+{% include "newsletter.html" %}
