@@ -580,6 +580,29 @@ body {
 
         .container {
             text-align: center;
+
+            form{
+                display: flex;
+                flex-wrap: wrap;
+            }
+            
+            input{
+                font-size: 1.2rem;
+                border-radius: 0.25rem;
+                border-color: rgba(88,88,88,.15);
+                padding: 0.75rem 0 0.75rem 1rem;
+                margin: 5px;
+            }
+            #name{
+                flex: 1 1 10ch;
+            }
+    
+            #email{
+                flex: 3 1 0;
+            }
+            #robot{
+                display: none;
+            }
         }
 
         picture {
