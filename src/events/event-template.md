@@ -7,7 +7,7 @@ author: David McElwee
 date: 2023-1-16T19:40:18.253Z
 tags:
   - eventpost
-image: /images/blog/landing.jpg
+image: /images/events/booksigning-m.jpg
 imageAlt: NEED AN ALT TAG
 ---
 This is an event that occurred in January 2023 to celebrate and discuss David McElwee's recently released novel 'My Afterlife.' It marks a day when family and friends came together to enjoy one another's company and congratulate David on a monumental personal achievement. 
