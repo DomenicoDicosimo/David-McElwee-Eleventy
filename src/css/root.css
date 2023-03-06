@@ -642,14 +642,73 @@
     display: block;
   }
   #footer .left-section p {
-    font-size: 0.875rem;
+    font-size: 2rem;
     line-height: 1.92857143;
     color: #fff;
     opacity: .9;
     text-align: center;
     width: 100%;
-    width: 21.92857143rem;
     margin: auto;
+  }
+  #footer .left-section .wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  #footer .left-section .wrapper .icon {
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 50%;
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    color: #333;
+    text-decoration: none;
+  }
+  #footer .left-section .wrapper .tooltip {
+    position: absolute;
+    top: 0;
+    line-height: 1.5;
+    font-size: 14px;
+    background-color: #ffffff;
+    color: #ffffff;
+    padding: 5px 8px;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  #footer .left-section .wrapper .facebook:hover {
+    background-color: #3b5999;
+    color: #ffffff;
+  }
+  #footer .left-section .wrapper .facebook:hover .tooltip {
+    background-color: #3b5999;
+    color: #ffffff;
+  }
+  #footer .left-section .wrapper .facebook:hover .tooltip::before {
+    background-color: #3b5999;
+    color: #ffffff;
+  }
+  #footer .left-section .wrapper .twitter:hover {
+    background-color: #46c1f6;
+    color: #ffffff;
+  }
+  #footer .left-section .wrapper .twitter:hover .tooltip {
+    background-color: #46c1f6;
+    color: #ffffff;
+  }
+  #footer .left-section .wrapper .twitter:hover .tooltip::before {
+    background-color: #46c1f6;
+    color: #ffffff;
   }
   #footer .right-section {
     width: 96%;
@@ -768,6 +827,10 @@
     width: 25.5625rem;
     margin: 0;
     text-align: left;
+  }
+  #footer .left-section .wrapper {
+    display: flex;
+    justify-content: flex-start;
   }
   #footer .left-section .logo {
     text-align: left;

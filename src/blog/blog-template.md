@@ -2,14 +2,14 @@
 pageName: The Delusionotist
 blogTitle: The Delusionotist
 titleTag: The Delusionotist
-description: Need a description
+description: Detailing the background behind David McElwee and My Afterlife.
 author: David McElwee
 date: 2022-12-16T19:40:18.253Z
 tags:
   - blogpost
   - featured
-image: /images/blog/landing.jpg
-imageAlt: NEED AN ALT TAG
+image: /images/blog/Rock-m.jpg
+imageAlt: The "glass ball" found by David
 ---
 David McElwee was born and raised in Northwest Pennsylvania. He earned a BS from
 the University of Pittsburgh and an MS in clinical psychology from the University of La
