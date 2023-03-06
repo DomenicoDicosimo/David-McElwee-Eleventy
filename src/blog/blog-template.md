@@ -8,7 +8,7 @@ date: 2022-12-16T19:40:18.253Z
 tags:
   - blogpost
   - featured
-image: /images/blog/Rock-m.jpg
+image: /assets/images/Rock.jpg
 imageAlt: The "glass ball" found by David
 ---
 David McElwee was born and raised in Northwest Pennsylvania. He earned a BS from

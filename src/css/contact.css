@@ -144,7 +144,8 @@
   }
   #cs-contact .cs-right-section {
     position: relative;
-    height: 20rem;
+    width: 39.4375em;
+    height: 39.75em;
     /* 24px - 40px top & bottom */
     /* 20px - 40px left & right */
     padding: clamp(1.5rem, 3vw, 2.5rem) clamp(1.25rem, 3vw, 2.5rem);
@@ -155,6 +156,29 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-end;
+    font-size: min(2.31vw, .7em);
+  }
+  #cs-contact .cs-right-section .cs-picture {
+    border-radius: 1.5em;
+    /* clips img tag corners */
+    overflow: hidden;
+    position: absolute;
+    display: block;
+  }
+  #cs-contact .cs-right-section .cs-picture img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 120%;
+    width: 100%;
+    /* makes image act like a background image */
+    object-fit: cover;
+  }
+  #cs-contact .cs-right-section .cs-picture1 {
+    width: 32.625em;
+    height: 36.3125em;
+    left: 0;
+    top: 0;
   }
   #cs-contact .cs-header {
     /* 16px - 20px */
