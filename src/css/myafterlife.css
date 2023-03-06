@@ -500,6 +500,26 @@
   #cta .container {
     text-align: center;
   }
+  #cta .container form {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #cta .container input {
+    font-size: 1.2rem;
+    border-radius: 0.25rem;
+    border-color: rgba(88, 88, 88, 0.15);
+    padding: 0.75rem 0 0.75rem 1rem;
+    margin: 5px;
+  }
+  #cta .container #name {
+    flex: 1 1 10ch;
+  }
+  #cta .container #email {
+    flex: 3 1 0;
+  }
+  #cta .container #robot {
+    display: none;
+  }
   #cta picture {
     position: absolute;
     top: 0;

@@ -105,11 +105,13 @@
     height: 3.125rem;
     text-align: center;
     padding: 0 1.875rem;
+    margin-top: 5px;
     margin-right: 1rem;
     margin-bottom: 1rem;
     position: relative;
     z-index: 1;
     background-color: var(--primary);
+    border-style: none;
     color: #000;
     transition: color .3s;
     transition-delay: .1s;
@@ -184,7 +186,7 @@
   }
   #navigation .logo {
     display: inline-block;
-    height: 1.875rem;
+    height: 3.875rem;
     width: auto;
   }
   #navigation .logo img {
@@ -407,7 +409,7 @@
   }
   #navigation .logo {
     margin-right: auto;
-    height: 3.75rem;
+    height: 4.75rem;
     width: auto;
   }
   #navigation .logo img {
@@ -630,7 +632,7 @@
     display: inline-block;
     margin: auto;
     width: auto;
-    height: 3.125em;
+    height: 3.875em;
     margin-bottom: 1.875em;
     text-align: center;
   }

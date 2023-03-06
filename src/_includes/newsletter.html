@@ -8,7 +8,7 @@
       Subscribe to our newsletter and be the first to know about new releases, upcoming events, and exclusive content from David Mcelwee and My Afterlife!
     </p>
     <form name="newsletter"  method="POST"   data-netlify="true" netlify-honeypot="bot-field">
-      <input
+        <input
         class="form-control valid"
         name="name"
         id="name"
@@ -16,25 +16,25 @@
         onfocus="this.placeholder = ''"
         onblur="this.placeholder = 'Enter your Name'"
         placeholder="Enter your Name"
-      />
-    <input
-      class="form-control valid"
-      name="email"
-      id="email"
-      type="email"
-      onfocus="this.placeholder = ''"
-      onblur="this.placeholder = 'Enter your Email'"
-      placeholder="Enter your Email"
-    />
-    <input
-      class="d-none"
-      name="bot-field"
-      placeholder="This is a spam detector, don't fill this out if you're a human."
-    />
+        />
+        <input
+        class="form-control valid"
+        name="email"
+        id="email"
+        type="email"
+        onfocus="this.placeholder = ''"
+        onblur="this.placeholder = 'Enter your Email'"
+        placeholder="Enter your Email"
+        />
+        <input id = "robot"
+        class="d-none"
+        name="bot-field"
+        placeholder="This is a spam detector, don't fill this out if you're a human."
+        />
 
-    <button type="submit" class="button-solid">
-      Yes, I'm in !
-    </button>
+        <button type="submit" class="button-solid" id="submit">
+          Yes, I'm in!
+        </button>
   </form>
   </div>
   {% image './src/images/smethport-hero.jpg', 'kitchen cabinets', '', 'lazy', '(max-width: 400px) 400px, (max-width: 850px) 850px, 1920px'%}
