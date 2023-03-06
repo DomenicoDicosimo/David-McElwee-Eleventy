@@ -161,9 +161,6 @@
     /* 6px - 12px */
     border: clamp(0.375em, 1.5vw, 0.75em) solid var(--dark);
   }
-  body.dark-mode #sbs-r .cs-topper {
-    color: var(--primaryLight);
-  }
   body.dark-mode #sbs-r .cs-title,
   body.dark-mode #sbs-r .cs-text,
   body.dark-mode #sbs-r .cs-h3,
@@ -324,6 +321,9 @@
     color: #fff;
     opacity: .7;
   }
+  body.dark-mode #reviews .title {
+    color: #fff;
+  }
 }
 /*-- -------------------------- -->
 <---       Side By Side         -->
@@ -468,6 +468,99 @@
     will-change: opacity, max-height;
   }
   #fvf .accordion-content p {
+    font-size: var(--bodyFontSize);
+    font-weight: 300;
+    margin: 2em 0;
+  }
+}
+@media only screen and (min-width: 0em) {
+  body.dark-mode #fvf .container .title-container .title {
+    color: #fff;
+  }
+  body.dark-mode #fvf .accordion button {
+    background: none;
+    border: none;
+    color: #fff;
+    display: block;
+    font-size: var(--bodyFontSize);
+    font-weight: 400;
+    outline: none;
+    padding: 1em 0;
+    position: relative;
+    text-align: left;
+    width: 100%;
+  }
+  body.dark-mode #fvf .accordion button:hover {
+    color: #fa4b0f;
+    cursor: pointer;
+  }
+  body.dark-mode #fvf .accordion button:hover:after {
+    border: 1px solid #fa4b0f;
+    color: #fa4b0f;
+    cursor: pointer;
+  }
+  body.dark-mode #fvf .accordion button:focus {
+    color: #fa4b0f;
+    cursor: pointer;
+  }
+  body.dark-mode #fvf .accordion button:focus:after {
+    border: 1px solid #fa4b0f;
+    color: #fa4b0f;
+    cursor: pointer;
+  }
+  body.dark-mode #fvf .accordion button .accordion-title {
+    padding: 1em 1.5em 1em 0;
+  }
+  body.dark-mode #fvf .accordion button .icon {
+    border-radius: 22px;
+    border: 1px solid;
+    display: inline-block;
+    height: 22px;
+    position: absolute;
+    right: 0;
+    top: 18px;
+    width: 22px;
+  }
+  body.dark-mode #fvf .accordion button .icon:before {
+    background: currentColor;
+    content: '';
+    display: block;
+    height: 2px;
+    left: 5px;
+    position: absolute;
+    top: 9px;
+    width: 10px;
+  }
+  body.dark-mode #fvf .accordion button .icon:after {
+    background: currentColor;
+    content: '';
+    display: block;
+    height: 10px;
+    left: 9px;
+    position: absolute;
+    top: 5px;
+    width: 2px;
+  }
+  body.dark-mode #fvf button[aria-expanded='true'] {
+    color: #fa4b0f;
+  }
+  body.dark-mode #fvf button[aria-expanded='true'].icon:after {
+    width: 0;
+  }
+  body.dark-mode #fvf button[aria-expanded='true'] + .accordion-content {
+    max-height: 9em;
+    opacity: 1;
+    transition: all 200ms linear;
+    will-change: opacity, max-height;
+  }
+  body.dark-mode #fvf .accordion-content {
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: opacity 200ms linear, max-height 200ms linear;
+    will-change: opacity, max-height;
+  }
+  body.dark-mode #fvf .accordion-content p {
     font-size: var(--bodyFontSize);
     font-weight: 300;
     margin: 2em 0;
