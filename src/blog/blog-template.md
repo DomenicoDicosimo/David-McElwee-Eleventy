@@ -51,13 +51,13 @@ are camouflaged with fancy words and phrases flowing rogue compelling unsuspecti
 fair goers to believe that drinking their elixir cures whatever ails. So, I decided to
 investigate.”
 
-At this point in time Polly was a renowned Coloradoan journalist and now awakened
+At this point in time Polly was a renowned journalist and now awakened
 skeptic. So, she set forth to debunk the curative powers of these elixirs as false
 advertisement but more importantly, to inform the public that delusionists are
 everywhere, so beware if in the presence of one with mal intent. 
 
 Polly concluded her research after a year traveling to county fairs across America 
-studying the bold claims of those peddling bold promises. During her examination Polly
+studying the claims of those peddling bold promises. During her examination Polly
 reviewed available morgue records confirming the elixir did not cure old age nor the
 myriad of other ailments purported to do so. However, she found no evidence of
 complaint from those experiencing the pleasurable effects of drinking the concoction!
@@ -108,7 +108,7 @@ into a beautiful yellow crystal ball. The fact is I found a green chunk of glass
 house helping my father many years ago. The fabrication is the transformation of the
 glass into a yellow crystal ball and its subsequent importance to the story.
 
-The picture below is that glass chunk I still retain. Please join the merriment. Submit
+The picture above is that glass chunk I still retain. Please join the merriment. Submit
 your comments using the contact button on my website to play “Facts or Fabrication!”
 But I jump ahead. 
 
@@ -142,15 +142,13 @@ was to set up community programs for people with developmental disabilities labe
 And as they say, ‘all good things come to an end’ whereupon I left the field in 2020,
 satisfied. During my career I have been fortunate to have had excellent mentors and
 exceptional colleagues, thanks. However, I would be remiss if failing to mention the
-most important lesson is from those living with developmental disabilities in the form of
-a simple request, “Treat me like a real person!” Salute!
+most important lesson is from those living with developmental disabilities who ask a simple request, “Treat me like a real person!” Salute!
 
 Now I’m here. I always thought it would be cool to write a book and when a twenty-year-
 old idea centered on reunifying a pair of drumsticks, a set of skeleton keys, and
 scapular patches separated following the death of the gift giver came calling, I
 answered. So, with time available, encouragement from family, and plenty of post it
 notes ‘My Afterlife’ is.
-
 
 Thanks for the indulgence,
 
