@@ -15,7 +15,9 @@ David McElwee was born and raised in Northwest Pennsylvania. He earned a BS from
 the University of Pittsburgh and an MS in clinical psychology from the University of La
 Verne. During his career, he has worked to build bridges past barriers in supporting
 people living with developmental disabilities. My Afterlife is his first novel.
-The above is my bio taken from the ‘About the Author’ section in the back of my book.
+
+
+The above bio is taken from the ‘About the Author’ section in the back of my book.
 With apologies, I failed to mention my most important academic achievement: High
 school graduate from Smethport Area High. Failure to disclose this was a short-sighted
 attempt to create mystery as to ‘where he’s from?’ Perhaps I should have chosen a
@@ -47,14 +49,14 @@ Polly’s fascination with delusionotists began during the wild west era after a
 county fair in her home state of Colorado. She recalls, “I experienced a loud clang in my
 brain upon hearing the grandiose promises of the snake oil salesman extolling the
 virtues and curative powers of their newest elixir. Their pontifications and proclamations
-are camouflaged with fancy words and phrases flowing rogue compelling unsuspecting
+are camouflaged with fancy words and phrases flowing rogue. Compelling unsuspecting
 fair goers to believe that drinking their elixir cures whatever ails. So, I decided to
 investigate.”
 
-At this point in time Polly was a renowned journalist and now awakened
+By this point in time Polly was a renowned journalist and now awakened
 skeptic. So, she set forth to debunk the curative powers of these elixirs as false
-advertisement but more importantly, to inform the public that delusionists are
-everywhere, so beware if in the presence of one with mal intent. 
+advertisement. But more importantly, to inform the public that delusionists are
+everywhere. So beware if in the presence of one with mal intent. 
 
 Polly concluded her research after a year traveling to county fairs across America 
 studying the claims of those peddling bold promises. During her examination Polly
@@ -83,7 +85,7 @@ yet to receive feedback from the certification committee regarding the Polly Pry
 but will let you know when I do.
 
 If sniffing trickery your suspicion may have led you to consult Webster’s dictionary or
-more likely type letters into a device only to discover delusionotist, delusionosis,
+more likely type letters into a device. Only to discover delusionotist, delusionosis,
 delusionizing, and fabricationist are not found upon a page or display. These un-words
 were chosen as they seemed legitimate in the context of certain truths about Polly Pry’s
 real life.
@@ -96,11 +98,11 @@ present, or future are easiest explained as coincidental. Many locations, time r
 and events throughout the story are real but may have been subjected to fabrication to
 fortify the storytelling.
 
-Which leads us to ‘Fact or Fabrication’, a version of ‘ask the author’ in which the reader
+Which leads us to ‘Fact or Fabrication’. A version of ‘ask the author’ in which the reader
 submits a curious observation, poses a question, confirms a fact, or identifies when a
 fact was fabricated. I suggest you don’t have to be from Smethport to ponder a point.
 So, to encourage participation by those unfortunate to have never walked down main
-street a personal example is provided to get your thinkin’ twitchin’!
+street a personal example is provided to get your thinkin’ twitchin’! 
 
 In ‘My Afterlife’ a young boy named Skeeter McGee finds a chunk of glass in the crawl
 space beneath his house while helping his father. The glass would later be transformed
@@ -125,19 +127,18 @@ And it is during the ‘canoe trip years’ I fell in with a group of committed 
 motivated to improve the lives of people with developmental disabilities. I was
 intimidated by the groups impressive credentials thus mostly listened but in time began
 to understand the complexities of the field and liked it. I enjoyed research, developing
-training programs, espousing clinical sensibility, but most importantly never lost
-connection with those supported as that’s where the best learning occurs. It seems a
+training programs, and espousing clinical sensibility. But most importantly, never lost
+connection with those supported, as that’s where the best learning occurs. It seems a
 niche had found me, thus my accidental career.
 
 A few years later I was honored when asked to present and conduct a series of
-workshops with Dr. Todd Risley, in which we addressed deinstitutionalization, wrap
+workshops with Dr. Todd Risley. During which we addressed deinstitutionalization, wrap
 around services, training, and the development of competent community settings for
 people with developmental disabilities. This experience opened a door to which I was
-compelled to step through.
+compelled to step through. 
 
-Thus, in 1996 I relocated the east coast joining an organization in which the mission
-was to set up community programs for people with developmental disabilities labelled
-‘difficult to serve’ who were then in large institutions. I am proud to say we assisted with hundreds of transitions in the subsequent years. Cheers to the team.
+Thus, in 1996 I relocated to the east coast joining an organization in which the mission
+was to set up community programs for people with developmental disabilities living in large institutions. I am proud to say we assisted with hundreds of transitions in the subsequent years. Cheers to the team.
 
 And as they say, ‘all good things come to an end’ whereupon I left the field in 2020,
 satisfied. During my career I have been fortunate to have had excellent mentors and
