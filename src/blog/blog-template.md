@@ -16,7 +16,6 @@ the University of Pittsburgh and an MS in clinical psychology from the Universit
 Verne. During his career, he has worked to build bridges past barriers in supporting
 people living with developmental disabilities. My Afterlife is his first novel.
 
-
 The above bio is taken from the ‘About the Author’ section in the back of my book.
 With apologies, I failed to mention my most important academic achievement: High
 school graduate from Smethport Area High. Failure to disclose this was a short-sighted
@@ -153,7 +152,7 @@ notes ‘My Afterlife’ is.
 
 Thanks for the indulgence,
 
-David McElwee, Delusionotist in training.
+David McElwee, Delusionotist in training
 
 Oh yea, shout out to my wife Debra for the cover design of 'My Afterlife'.
 
