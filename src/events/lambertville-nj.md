@@ -10,6 +10,6 @@ tags:
 image: popup book signing
 imageAlt: website
 ---
-D﻿eb and I were browsing at Golden Nugget Awntique Flea Market in Lambertville NJ where we struck up a conversation with some interesting folks and the next thing you know...it turns into a 'pop up' book signing!
+D﻿eb and I were browsing at Golden Nugget Antique Flea Market in Lambertville NJ where we struck up a conversation with some interesting folks and the next thing you know...it turns into a 'pop up' book signing!
 
 B﻿ig Thank you to Irene, Jyote and Martha for making this happen!
