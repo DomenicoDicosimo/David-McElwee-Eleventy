@@ -7,7 +7,7 @@ author: DM
 date: 2023-03-25T19:30:00.000Z
 tags:
   - eventpost
-image: davidmcelwee.com
+image: popup book signing
 imageAlt: website
 ---
 D﻿eb and I were browsing at Golden Nugget Awntique Flea Market in Lambertville NJ where we struck up a conversation with some interesting folks and the next thing you know...it turns into a 'pop up' book signing!
