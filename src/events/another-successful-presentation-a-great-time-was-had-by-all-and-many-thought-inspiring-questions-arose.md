@@ -1,6 +1,5 @@
 ---
-pageName: Another successful presentation! A great time was had by all and many
-  thought inspiring questions arose
+pageName: Bradford Area Public Library Presentation 6/24/23
 eventTitle: "Inside My Afterlife: A 20-year-old tale"
 titleTag: A 5-act presentation & book signing
 description: Bradford Library event Ad
