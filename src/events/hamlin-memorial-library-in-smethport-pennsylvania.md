@@ -1,6 +1,6 @@
 ---
-pageName: Hamlin Memorial Library in Smethport, Pennsylvania
-eventTitle: "HAMLIN MEMORIAL LIBRARY PRESENTS- 170 & Counting: Inside My Afterlife"
+pageName: Hamlin Memorial Library in Smethport, Pennsylvania 5/20/23
+eventTitle: "HAMLIN MEMORIAL LIBRARY PRESENTS- 170 & Counting: Inside My Afterlife 5/20/23"
 titleTag: A Book Signing in 5 acts
 description: "Great big thanks to Lori Rounsville, Hamlin Memorial Library, and
   all who attended the book signing event on Saturday. It was a great
