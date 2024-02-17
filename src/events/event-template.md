@@ -1,6 +1,6 @@
 ---
 pageName: Pre-Release-Party 1/16/23
-eventTitle: Pre-Release Party
+eventTitle: Pre-Release Party 1/16/23
 titleTag: Pre-Release Party
 description: The greatest congregation of minds ever to have been seen on this
   earth come together to celebrate the release of David McElwee's new book 'My
