@@ -1,6 +1,6 @@
 ---
 pageName: Lambertville NJ 3/25/23
-eventTitle: Pop Up
+eventTitle: Pop Up 3/25/23
 titleTag: Golden Nugget Antiques 3/25/23
 description: great fun
 author: DM
