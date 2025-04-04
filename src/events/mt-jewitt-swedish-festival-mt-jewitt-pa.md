@@ -1,5 +1,5 @@
 ---
-pageName: Mt. Jewitt Swedish Festival- Mt. Jewitt, PA
+pageName: Mt. Jewitt Swedish Festival- Mt. Jewitt, PA  8/24/24
 eventTitle: Mt. Jewitt Swedish Festival- Mt. Jewitt, PA
 titleTag: Mt. Jewitt Swedish Festival- Mt. Jewitt, PA
 description: Mt. Jewitt Swedish Festival- Mt. Jewitt, PA -Guest Speaker
