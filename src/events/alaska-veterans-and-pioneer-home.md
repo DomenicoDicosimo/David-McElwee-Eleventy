@@ -1,5 +1,5 @@
 ---
-pageName: Alaska Veteran's and Pioneer Home
+pageName: Alaska Veteran's and Pioneer Home  7/25/24
 eventTitle: Guest Speaker
 titleTag: Alaska Veteran's and Pioneer Home- Palmer, AK
 description: Alaska Veteran's and Pioneer Home- Palmer, AK
