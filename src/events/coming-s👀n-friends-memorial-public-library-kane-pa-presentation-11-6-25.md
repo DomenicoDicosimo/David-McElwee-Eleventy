@@ -10,4 +10,4 @@ tags:
 image: /images/blog/kane1.jpg
 imageAlt: COMING S👀N!  Friends Memorial Public Library Kane, PA  -Presentation  11/6/25
 ---
-Anticipating good fun while the **Wolves** howl amongst the cherry trees.
+Anticipating good fun while the **Wolves** howl amongst the black cherry trees.
