@@ -10,4 +10,4 @@ tags:
 image: /images/blog/kane.jpg
 imageAlt: Friends Memorial Public Library- Kane, Pennsylvania   Presentation 11/6/25
 ---
-Friends Memorial Public Library- Kane, Pennsylvania   Presentation 11/6/25
+Thanks for hosting this Ole Hubber. Remember the 9 wolves that ran among the black cherry trees...lol
