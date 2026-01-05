@@ -29,13 +29,28 @@
         <nav id="navbar-menu" aria-label="main navigation">
             <ul>
                 {%- for entry in navPages %}
-                    <li>
+                    <li class="{% if entry.children and entry.children | length > 0 %}has-dropdown{% endif %}">
                         <a 
                         {% if entry.url == page.url %} class="active" {% endif %}
                         href="{{ entry.url }}"
                     >
                             {{ entry.title }}
+                            {% if entry.children and entry.children | length > 0 %}<span class="dropdown-arrow" aria-hidden="true">▼</span>{% endif %}
                         </a>
+                        {% if entry.children and entry.children | length > 0 %}
+                        <ul class="dropdown-menu">
+                            {%- for child in entry.children %}
+                            <li>
+                                <a 
+                                {% if child.url == page.url %} class="active" {% endif %}
+                                href="{{ child.url }}"
+                            >
+                                    {{ child.title }}
+                                </a>
+                            </li>
+                            {%- endfor %}
+                        </ul>
+                        {% endif %}
                     </li>
                 {%- endfor %}
             </ul>

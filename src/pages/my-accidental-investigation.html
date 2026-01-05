@@ -1,0 +1,48 @@
+---
+layout: 'base.html' 
+description: "My Accidental Investigation, a novel by David McElwee"
+metaTitle: 'My Accidental Investigation by David McElwee'
+tagTitle: 'My Accidental Investigation'
+preloadImg: '/images/imageName.format'
+preloadCSS: '/css/myafterlife.css'
+permalink: 'my-accidental-investigation/'
+eleventyNavigation:
+    key: My Accidental Investigation
+    parent: Books
+    order: 302
+---
+<!-- ============================================ -->
+<!--                    LANDING                   -->
+<!-- ============================================ -->
+<section id="int-hero">
+  <h1 id="home-h">My Accidental Investigation</h1>
+  {% image './src/images/smethport-hero.jpg', 'Birds eye view of Smethport PA in the fall', '', 'lazy', '(max-width: 850px) 850px, 1920px'%}
+</section>
+
+<!-- ============================================ -->
+<!--            Extra Content To Rank             -->
+<!-- ============================================ -->
+
+<section id="sbs-r">
+  <div class="cs-container">
+    <!-- Left Image Section -->
+    <div class="cs-left">
+      {% image './src/images/my-accidental-investigation-mock.png', 'Mock cover of My Accidental Investigation', 'cs-picture cs-picture1', 'lazy'%}
+    </div>
+    <!-- Right Content Section-->
+    <div class="cs-right">
+      <span class="cs-topper">New Release!</span>
+      <h2 class="cs-title">My Accidental Investigation</h2>
+      <p class="cs-text">
+        Beware, don't judge a book by its cover! My Accidental Investigation is a magical realism novel influenced by the field of psychology. The emotionally tense story is tempered with humor to reduce the sting when realizing life is fraught with unseen dangers.What does a serial predator whose camouflage is that of a devout funeral home director, a traumatized postal worker with a penchant for writing notes, and a twelve-year-old girl with Down syndrome who draws her memories have in common?The answer is Dr. Stimps, a well-respected psychologist facing her mortality while embarking on a profound journey triggered by a seemingly innocent question: Do you want Life Savers from your guardian angel?"This question unexpectedly links her with characters from the writer's first novel, My Afterlife.The unconventional group collaborates to end the predator's twenty-six-year reign. Their journey is summarized best by Dr. Stimps: "Life is complex with many vagaries, eddies, side trails, offshoots, and hidden passages. We are always converging. Occasionally a common thread somehow weaves its way through a seemingly random group of people to create a shared convergence. What a great one it was!"
+      </p>
+      <a href="https://a.co/d/1es1zQZ" class="button-solid">Get a Copy</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================ -->
+<!--                     CTA                      -->
+<!-- ============================================ -->
+{% include "newsletter.html" %}
+
