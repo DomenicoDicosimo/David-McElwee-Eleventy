@@ -11,7 +11,7 @@ author: David McElwee
 date: 2026-01-11T18:39:52.153Z
 tags:
   - eventpost
-image: /images/blog/a1fefd8d-9621-4811-a580-d1bd57c10aef.htm
+image: /images/blog/mjs.png
 imageAlt: "*UPCOMING* Mount Jewett Swedish festival- Mount Jewett, Pennsylvania
   Presentation 8/7/26-8/9/26"
 ---
